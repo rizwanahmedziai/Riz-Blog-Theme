@@ -44,3 +44,37 @@ footer {
     margin: 0 auto;
     overflow: auto;
 }
+
+a {
+    color: #333;
+}
+
+article.post {
+    border-bottom: 1px #ccc;
+    overflow: hidden;
+}
+
+article.post a.button {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.meta {
+    background-color: #393939;
+    color: #fff;
+    padding: 5px;
+}
+
+.logo-heading a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.post-thumbnail {
+    width: 100%;
+    height: auto;
+}

@@ -14,8 +14,8 @@
 
 <body>
   <header>
-    <h1>
-      <?php bloginfo('name') ?>
+    <h1 class="logo-heading">
+      <a href="<?php echo get_home_url(); ?>"><?php bloginfo('name') ?></a>
     </h1>
     <span>
       <?php bloginfo('description') ?></span>
